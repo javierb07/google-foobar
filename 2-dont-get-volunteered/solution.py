@@ -48,5 +48,3 @@ def solution(src, dest):
             if(is_inside(x, y) and not visited[x][y]):
                 visited[x][y] = True
                 queue.append(square(x, y, c.moves + 1))
-
-print(solution(19,36))
